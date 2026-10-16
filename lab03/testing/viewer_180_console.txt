@@ -1,0 +1,13 @@
+Tier: viewer
+URL: http://itmo-444-544-app-alb-221027214.us-east-2.elb.amazonaws.com:8081/
+SLO: 180.0 seconds
+Original instance: i-0461eb42b5a1acc70
+Requesting termination through the ASG...
+0.3s: UP
+4.5s: DOWN
+86.0s: UP
+CSV log: /Users/mac/lab03/testing/chaos_test_viewer_20261016T165516792518Z.csv
+Recovery time: 86.0s (from termination request)
+Observed outage duration: 81.5s
+Recovery confirmed by three consecutive HTTP 200 probes.
+PASS: recovery met the 180.0s SLO.

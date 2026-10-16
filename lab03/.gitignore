@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+stack_outputs.env
+
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node dependencies
+node_modules/
+
+# Generated deployment files
+*-lt-data.json
+user-data-*.sh
+*-policy.json
+*_instance_id.txt
+
+# Local files
+.DS_Store
+*.backup-*

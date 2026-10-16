@@ -1,0 +1,7 @@
+== Deleting Auto Scaling Groups and their instances ==
+itmo-444-544-uploader-asg: deleted or already absent.
+itmo-444-544-viewer-asg: deleted or already absent.
+== Deleting the ALB and its listeners ==
+== Deleting target groups ==
+
+aws: [ERROR]: An error occurred (ResourceInUse) when calling the DeleteTargetGroup operation: Target group 'arn:aws:elasticloadbalancing:us-east-2:895207965179:targetgroup/itmo-444-544-uploader-tg/822076d9ecb43e0b' is currently in use by a listener or a rule
