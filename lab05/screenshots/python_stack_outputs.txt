@@ -1,0 +1,8 @@
+VPC_ID=vpc-070eca079c34c7d2d
+SUBNET_A=subnet-07877a7205c1c0f15
+SUBNET_B=subnet-06669c5876c315763
+ALB_SECURITY_GROUP_ID=sg-052f54b69734a37ac
+ALB_ARN=arn:aws:elasticloadbalancing:us-east-2:895207965179:loadbalancer/app/itmo-444-544-app-alb/f6e95e15781e1946
+ALB_DNS_NAME=itmo-444-544-app-alb-802795227.us-east-2.elb.amazonaws.com
+UPLOADER_TG_ARN=arn:aws:elasticloadbalancing:us-east-2:895207965179:targetgroup/itmo-444-544-uploader-tg/ac0b3fd8279919d5
+VIEWER_TG_ARN=arn:aws:elasticloadbalancing:us-east-2:895207965179:targetgroup/itmo-444-544-viewer-tg/7ff65c2d0fdf78b0

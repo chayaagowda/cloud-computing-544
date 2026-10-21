@@ -1,0 +1,43 @@
+== Deleting Auto Scaling Groups and their instances ==
+itmo-444-544-uploader-asg: deleted or already absent.
+itmo-444-544-viewer-asg: deleted or already absent.
+== Deleting the ALB and its listeners ==
+== Deleting target groups ==
+== Restoring the previous lab's app-port rule ==
+== Deleting the ALB security group ==
+== Deleting launch templates ==
+{
+    "LaunchTemplate": {
+        "LaunchTemplateId": "lt-054945e20b5e0928a",
+        "LaunchTemplateName": "itmo-444-544-uploader-lt",
+        "CreateTime": "2026-10-16T16:34:40+00:00",
+        "CreatedBy": "arn:aws:iam::895207965179:user/chaya",
+        "DefaultVersionNumber": 1,
+        "LatestVersionNumber": 1,
+        "Operator": {
+            "Managed": false
+        }
+    }
+}
+{
+    "LaunchTemplate": {
+        "LaunchTemplateId": "lt-05ff803c00c2f390c",
+        "LaunchTemplateName": "itmo-444-544-viewer-lt",
+        "CreateTime": "2026-10-16T16:34:43+00:00",
+        "CreatedBy": "arn:aws:iam::895207965179:user/chaya",
+        "DefaultVersionNumber": 1,
+        "LatestVersionNumber": 1,
+        "Operator": {
+            "Managed": false
+        }
+    }
+}
+== Removing lab profiles and roles ==
+== Emptying and deleting the lab bucket ==
+{
+    "BucketArn": "arn:aws:s3:::itmo-444-544-ckirankumar-fileshare",
+    "BucketRegion": "us-east-2",
+    "AccessPointAlias": false
+}
+delete: s3://itmo-444-544-ckirankumar-fileshare/shared.txt
+Cleanup complete.

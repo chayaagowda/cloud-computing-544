@@ -1,0 +1,13 @@
+Tier: uploader
+URL: http://itmo-444-544-app-alb-221027214.us-east-2.elb.amazonaws.com:8080/
+SLO: 180.0 seconds
+Original instance: i-033b9ede37acd205e
+Requesting termination through the ASG...
+0.3s: UP
+2.4s: DOWN
+71.5s: UP
+CSV log: /Users/mac/lab03/testing/chaos_test_uploader_20261016T165126770866Z.csv
+Recovery time: 71.5s (from termination request)
+Observed outage duration: 69.1s
+Recovery confirmed by three consecutive HTTP 200 probes.
+PASS: recovery met the 180.0s SLO.
