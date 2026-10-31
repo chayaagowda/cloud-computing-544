@@ -149,8 +149,7 @@ The 30 Lab06 screenshots are:
 29_lab06_folder_layout.png
 30_cleanup_verification.png
 
-Earlier-lab screenshots copied into this directory are reference material,
-not Lab06 evidence.
+Earlier-lab screenshots are archived in previous/screenshots/.
 
 ## Cleanup
 
